@@ -1,7 +1,7 @@
 # Panduan Skill Bottle
 
 ## Apa itu Skill Bottle?
-**Skill Bottle** adalah item khusus berupa potion yang berisi pengalaman untuk meningkatkan skill dari aurelium skill. Pemain dapat mengkonsumsi (minum) item ini untuk mendapatkan poin pengalaman di skill pilihan mereka.
+**Skill Bottle** adalah item khusus berupa botol yang berisi pengalaman untuk meningkatkan skill dari aurelium skill. Pemain dapat mengkonsumsi (minum) item ini untuk mendapatkan poin pengalaman di skill pilihan mereka.
 
 ## Fitur Utama
 - 💎 **3 Tingkatan** - Tier I, II, dan III dengan reward pengalaman berbeda
@@ -25,7 +25,7 @@
 ## Perilaku Saat Dikonsumsi (Consume Behavior)
 
 - Saat diminum, pemain akan:
-   - Mendapatkan item (potion) di-inventory jika diambil dari GUI,
+   - Mendapatkan item (bottle) di-inventory jika diambil dari GUI,
    - Mendengar suara `entity.experience_orb.pickup`.
    - Menerima XP skill melalui perintah konsol yang dieksekusi oleh script: `/skill xp add <player> <skill> <xp>`.
    - Nilai XP sesuai tier:
@@ -118,6 +118,9 @@
 
 ### Model Data IDs
 setiap skill bottle memiliki custom model data tersendiri untuk custom texturing:
+
+item: Honey Bottle
+- Custom Model Data: Sesuai skill (lihat tabel di bawah)
 
 | Skill      | Model Data | Color             |
 | ---------- | ---------- | ----------------- |
